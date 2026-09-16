@@ -435,7 +435,21 @@ export default function CheckoutPage() {
                   </span>
                 </div>
               </label>
+{paymentMethod === 'telebirr' && (
+  <div className="mt-4 rounded-lg border border-green-200 bg-green-50 p-4 text-xs text-green-900">
+    <p className="mb-1 text-sm font-semibold">
+      Telebirr Account:
+    </p>
 
+    <p className="font-mono text-base font-bold text-green-700">
+      0954701111
+    </p>
+
+    <p className="mt-1">
+      Account Name: <strong>Tsedeniya</strong>
+    </p>
+  </div>
+)}
               {/* CBE */}
               <label
                 className={`flex cursor-pointer items-start rounded-lg border p-4 transition ${
@@ -471,12 +485,12 @@ export default function CheckoutPage() {
                 </p>
 
                 <p className="font-mono text-base font-bold text-blue-700">
-                  1000123456789
+                  1000360065689
                 </p>
 
                 <p className="mt-1">
                   Account Name:{' '}
-                  <strong>The Shop P.L.C</strong>
+                  <strong>Tsedeniya Tadesse Russi</strong>
                 </p>
               </div>
             )}
