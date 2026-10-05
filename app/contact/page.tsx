@@ -22,12 +22,12 @@ export default function ContactPage() {
           <div className="space-y-4 text-sm text-gray-600">
             <div>
               <p className="font-semibold text-gray-900">Phone Support</p>
-              <p>+251 91 123 4567</p>
+              <p>+251 913 602 324</p>
             </div>
 
             <div>
               <p className="font-semibold text-gray-900">Email Address</p>
-              <p>support@theshop.et</p>
+              <p>shoptheshop2@gmail.com</p>
             </div>
 
             <div>
