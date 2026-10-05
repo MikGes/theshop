@@ -21,7 +21,7 @@ export default function ContactPage() {
 
           <div className="space-y-4 text-sm text-gray-600">
             <div>
-              <p className="font-semibold text-gray-900">Phone & Telegram Support</p>
+              <p className="font-semibold text-gray-900">Phone Support</p>
               <p>+251 91 123 4567</p>
             </div>
 
@@ -33,6 +33,36 @@ export default function ContactPage() {
             <div>
               <p className="font-semibold text-gray-900">Location</p>
               <p>Bole, Addis Ababa, Ethiopia</p>
+            </div>
+
+            <div>
+              <p className="font-semibold text-gray-900">Follow Us & Chat</p>
+              <div className="mt-1 flex flex-col items-start gap-1">
+                <a
+                  href="https://www.instagram.com/theshop.et?stkn=MTZucXcwZjR1ejRpeg%3D%3D&utm_source=qr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-indigo-600 hover:underline"
+                >
+                  Instagram
+                </a>
+                <a
+                  href="https://www.tiktok.com/@shop.theshop?_r=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-indigo-600 hover:underline"
+                >
+                  TikTok
+                </a>
+                <a
+                  href="https://t.me/+w1GrKgiW2B4zMDY8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-indigo-600 hover:underline"
+                >
+                  Telegram
+                </a>
+              </div>
             </div>
           </div>
         </div>
